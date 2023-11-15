@@ -1,0 +1,93 @@
+.cadastro-container {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    background-color: #f8f9fd;
+}
+
+.cadastro-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+.cadastro-form button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  }
+  
+  .cadastro-form button:hover {
+    background: #6cf0c2;
+  }
+  
+  .cadastro-form p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  
+  .cadastro-form-link {
+    color: #01d28e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cadastro-form a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  
+  .form-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  
+.input-style {
+    
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 12px; 
+    margin-top: 4px;
+  }
+  
+  
+  .input-style:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+  
